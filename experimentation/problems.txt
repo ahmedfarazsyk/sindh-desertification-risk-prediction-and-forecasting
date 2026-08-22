@@ -1,0 +1,453 @@
+1. Fix the confirmed LST/ET collection references.
+2. Run the f_rain/f_pdsi/f_temp/f_vpd breakdown to nail the CQI mechanism.
+3. Re-export the affected months once both are fixed, rather than patching around the symptom in the model.
+
+
+
+
+
+
+
+
+---------------------------------------------------
+s1_vv
+---------------------------------------------------
+s1_vh
+---------------------------------------------------
+s1_ratio
+Month 8: 1/500 patches (0.2%) totally blank
+---------------------------------------------------
+s2_bands (B2)
+Month 0: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 83/500 patches (16.6%) totally blank
+Month 7: 21/500 patches (4.2%) totally blank
+Month 8: 4/500 patches (0.8%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 9/500 patches (1.8%) totally blank
+---------------------------------------------------
+s2_bands (B4)
+Month 0: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 83/500 patches (16.6%) totally blank
+Month 7: 21/500 patches (4.2%) totally blank
+Month 8: 4/500 patches (0.8%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 9/500 patches (1.8%) totally blank
+---------------------------------------------------
+s2_bands (B8)
+Month 0: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 83/500 patches (16.6%) totally blank
+Month 7: 21/500 patches (4.2%) totally blank
+Month 8: 4/500 patches (0.8%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 9/500 patches (1.8%) totally blank
+---------------------------------------------------
+s2_bands (B11)
+Month 0: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 83/500 patches (16.6%) totally blank
+Month 7: 21/500 patches (4.2%) totally blank
+Month 8: 4/500 patches (0.8%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 9/500 patches (1.8%) totally blank
+---------------------------------------------------
+ndvi
+Month 0: 1/500 patches (0.2%) totally blank
+Month 2: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 84/500 patches (16.8%) totally blank
+Month 7: 36/500 patches (7.2%) totally blank
+Month 8: 9/500 patches (1.8%) totally blank
+Month 10: 1/500 patches (0.2%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 13/500 patches (2.6%) totally blank
+Month 20: 2/500 patches (0.4%) totally blank
+---------------------------------------------------
+ndwi
+Month 0: 3/500 patches (0.6%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 94/500 patches (18.8%) totally blank
+Month 7: 27/500 patches (5.4%) totally blank
+Month 8: 5/500 patches (1.0%) totally blank
+Month 18: 205/500 patches (41.0%) totally blank
+Month 19: 15/500 patches (3.0%) totally blank
+Month 24: 1/500 patches (0.2%) totally blank
+Month 25: 1/500 patches (0.2%) totally blank
+---------------------------------------------------
+msi
+Month 0: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 83/500 patches (16.6%) totally blank
+Month 7: 21/500 patches (4.2%) totally blank
+Month 8: 4/500 patches (0.8%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 9/500 patches (1.8%) totally blank
+---------------------------------------------------
+nddi
+Month 0: 1/500 patches (0.2%) totally blank
+Month 2: 8/500 patches (1.6%) totally blank
+Month 5: 3/500 patches (0.6%) totally blank
+Month 6: 86/500 patches (17.2%) totally blank
+Month 7: 35/500 patches (7.0%) totally blank
+Month 8: 5/500 patches (1.0%) totally blank
+Month 10: 7/500 patches (1.4%) totally blank
+Month 15: 2/500 patches (0.4%) totally blank
+Month 16: 2/500 patches (0.4%) totally blank
+Month 18: 196/500 patches (39.2%) totally blank
+Month 19: 13/500 patches (2.6%) totally blank
+---------------------------------------------------
+savi
+Month 0: 1/500 patches (0.2%) totally blank
+Month 2: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 84/500 patches (16.8%) totally blank
+Month 7: 36/500 patches (7.2%) totally blank
+Month 8: 9/500 patches (1.8%) totally blank
+Month 10: 1/500 patches (0.2%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 13/500 patches (2.6%) totally blank
+Month 20: 2/500 patches (0.4%) totally blank
+---------------------------------------------------
+evi
+Month 0: 1/500 patches (0.2%) totally blank
+Month 2: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 84/500 patches (16.8%) totally blank
+Month 7: 36/500 patches (7.2%) totally blank
+Month 8: 9/500 patches (1.8%) totally blank
+Month 10: 1/500 patches (0.2%) totally blank
+Month 18: 194/500 patches (38.8%) totally blank
+Month 19: 12/500 patches (2.4%) totally blank
+Month 20: 2/500 patches (0.4%) totally blank
+---------------------------------------------------
+lst_celsius
+Month 0: 500/500 patches (100.0%) totally blank
+Month 1: 500/500 patches (100.0%) totally blank
+Month 2: 500/500 patches (100.0%) totally blank
+Month 3: 500/500 patches (100.0%) totally blank
+Month 4: 500/500 patches (100.0%) totally blank
+Month 5: 500/500 patches (100.0%) totally blank
+Month 6: 500/500 patches (100.0%) totally blank
+Month 7: 500/500 patches (100.0%) totally blank
+Month 8: 500/500 patches (100.0%) totally blank
+Month 9: 500/500 patches (100.0%) totally blank
+Month 10: 500/500 patches (100.0%) totally blank
+Month 11: 500/500 patches (100.0%) totally blank
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+et_modis
+Month 0: 500/500 patches (100.0%) totally blank
+Month 1: 500/500 patches (100.0%) totally blank
+Month 2: 500/500 patches (100.0%) totally blank
+Month 3: 500/500 patches (100.0%) totally blank
+Month 4: 500/500 patches (100.0%) totally blank
+Month 5: 500/500 patches (100.0%) totally blank
+Month 6: 500/500 patches (100.0%) totally blank
+Month 7: 500/500 patches (100.0%) totally blank
+Month 8: 500/500 patches (100.0%) totally blank
+Month 9: 500/500 patches (100.0%) totally blank
+Month 10: 500/500 patches (100.0%) totally blank
+Month 11: 500/500 patches (100.0%) totally blank
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+lai_modis
+Month 0: 136/500 patches (27.2%) totally blank
+Month 1: 135/500 patches (27.0%) totally blank
+Month 2: 135/500 patches (27.0%) totally blank
+Month 3: 135/500 patches (27.0%) totally blank
+Month 4: 135/500 patches (27.0%) totally blank
+Month 5: 135/500 patches (27.0%) totally blank
+Month 6: 135/500 patches (27.0%) totally blank
+Month 7: 135/500 patches (27.0%) totally blank
+Month 8: 135/500 patches (27.0%) totally blank
+Month 9: 136/500 patches (27.2%) totally blank
+Month 10: 137/500 patches (27.4%) totally blank
+Month 11: 136/500 patches (27.2%) totally blank
+Month 12: 135/500 patches (27.0%) totally blank
+Month 13: 135/500 patches (27.0%) totally blank
+Month 14: 135/500 patches (27.0%) totally blank
+Month 15: 135/500 patches (27.0%) totally blank
+Month 16: 135/500 patches (27.0%) totally blank
+Month 17: 135/500 patches (27.0%) totally blank
+Month 18: 135/500 patches (27.0%) totally blank
+Month 19: 135/500 patches (27.0%) totally blank
+Month 20: 135/500 patches (27.0%) totally blank
+Month 21: 137/500 patches (27.4%) totally blank
+Month 22: 136/500 patches (27.2%) totally blank
+Month 23: 136/500 patches (27.2%) totally blank
+Month 24: 135/500 patches (27.0%) totally blank
+Month 25: 136/500 patches (27.2%) totally blank
+---------------------------------------------------
+rain
+Month 0: 283/500 patches (56.6%) totally blank
+Month 1: 107/500 patches (21.4%) totally blank
+Month 2: 234/500 patches (46.8%) totally blank
+Month 10: 498/500 patches (99.6%) totally blank
+Month 11: 483/500 patches (96.6%) totally blank
+Month 14: 359/500 patches (71.8%) totally blank
+Month 15: 449/500 patches (89.8%) totally blank
+Month 23: 349/500 patches (69.8%) totally blank
+Month 24: 346/500 patches (69.2%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_pr
+Month 0: 341/500 patches (68.2%) totally blank
+Month 1: 10/500 patches (2.0%) totally blank
+Month 2: 6/500 patches (1.2%) totally blank
+Month 3: 1/500 patches (0.2%) totally blank
+Month 4: 465/500 patches (93.0%) totally blank
+Month 8: 20/500 patches (4.0%) totally blank
+Month 9: 376/500 patches (75.2%) totally blank
+Month 10: 476/500 patches (95.2%) totally blank
+Month 11: 448/500 patches (89.6%) totally blank
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_pet
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_tmax
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_tmin
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_vpd
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+tc_pdsi
+Month 12: 500/500 patches (100.0%) totally blank
+Month 13: 500/500 patches (100.0%) totally blank
+Month 14: 500/500 patches (100.0%) totally blank
+Month 15: 500/500 patches (100.0%) totally blank
+Month 16: 500/500 patches (100.0%) totally blank
+Month 17: 500/500 patches (100.0%) totally blank
+Month 18: 500/500 patches (100.0%) totally blank
+Month 19: 500/500 patches (100.0%) totally blank
+Month 20: 500/500 patches (100.0%) totally blank
+Month 21: 500/500 patches (100.0%) totally blank
+Month 22: 500/500 patches (100.0%) totally blank
+Month 23: 500/500 patches (100.0%) totally blank
+Month 24: 500/500 patches (100.0%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+soc
+Month 0: 75/500 patches (15.0%) totally blank
+Month 1: 75/500 patches (15.0%) totally blank
+Month 2: 75/500 patches (15.0%) totally blank
+Month 3: 75/500 patches (15.0%) totally blank
+Month 4: 75/500 patches (15.0%) totally blank
+Month 5: 75/500 patches (15.0%) totally blank
+Month 6: 75/500 patches (15.0%) totally blank
+Month 7: 75/500 patches (15.0%) totally blank
+Month 8: 75/500 patches (15.0%) totally blank
+Month 9: 75/500 patches (15.0%) totally blank
+Month 10: 75/500 patches (15.0%) totally blank
+Month 11: 75/500 patches (15.0%) totally blank
+Month 12: 75/500 patches (15.0%) totally blank
+Month 13: 75/500 patches (15.0%) totally blank
+Month 14: 75/500 patches (15.0%) totally blank
+Month 15: 75/500 patches (15.0%) totally blank
+Month 16: 75/500 patches (15.0%) totally blank
+Month 17: 75/500 patches (15.0%) totally blank
+Month 18: 75/500 patches (15.0%) totally blank
+Month 19: 75/500 patches (15.0%) totally blank
+Month 20: 75/500 patches (15.0%) totally blank
+Month 21: 75/500 patches (15.0%) totally blank
+Month 22: 75/500 patches (15.0%) totally blank
+Month 23: 75/500 patches (15.0%) totally blank
+Month 24: 75/500 patches (15.0%) totally blank
+Month 25: 75/500 patches (15.0%) totally blank
+---------------------------------------------------
+texture
+Month 0: 1/500 patches (0.2%) totally blank
+Month 1: 1/500 patches (0.2%) totally blank
+Month 2: 1/500 patches (0.2%) totally blank
+Month 3: 1/500 patches (0.2%) totally blank
+Month 4: 1/500 patches (0.2%) totally blank
+Month 5: 1/500 patches (0.2%) totally blank
+Month 6: 1/500 patches (0.2%) totally blank
+Month 7: 1/500 patches (0.2%) totally blank
+Month 8: 1/500 patches (0.2%) totally blank
+Month 9: 1/500 patches (0.2%) totally blank
+Month 10: 1/500 patches (0.2%) totally blank
+Month 11: 1/500 patches (0.2%) totally blank
+Month 12: 1/500 patches (0.2%) totally blank
+Month 13: 1/500 patches (0.2%) totally blank
+Month 14: 1/500 patches (0.2%) totally blank
+Month 15: 1/500 patches (0.2%) totally blank
+Month 16: 1/500 patches (0.2%) totally blank
+Month 17: 1/500 patches (0.2%) totally blank
+Month 18: 1/500 patches (0.2%) totally blank
+Month 19: 1/500 patches (0.2%) totally blank
+Month 20: 1/500 patches (0.2%) totally blank
+Month 21: 1/500 patches (0.2%) totally blank
+Month 22: 1/500 patches (0.2%) totally blank
+Month 23: 1/500 patches (0.2%) totally blank
+Month 24: 1/500 patches (0.2%) totally blank
+Month 25: 1/500 patches (0.2%) totally blank
+---------------------------------------------------
+bulk_density
+---------------------------------------------------
+elevation
+---------------------------------------------------
+slope
+---------------------------------------------------
+aspect
+---------------------------------------------------
+hillshade
+---------------------------------------------------
+night_lights
+Month 6: 2/500 patches (0.4%) totally blank
+Month 18: 1/500 patches (0.2%) totally blank
+Month 25: 500/500 patches (100.0%) totally blank
+---------------------------------------------------
+pop_dens
+---------------------------------------------------
+lc
+Month 0: 14/500 patches (2.8%) totally blank
+Month 1: 7/500 patches (1.4%) totally blank
+Month 2: 5/500 patches (1.0%) totally blank
+Month 6: 1/500 patches (0.2%) totally blank
+Month 7: 7/500 patches (1.4%) totally blank
+Month 8: 18/500 patches (3.6%) totally blank
+Month 9: 24/500 patches (4.8%) totally blank
+Month 10: 15/500 patches (3.0%) totally blank
+Month 11: 10/500 patches (2.0%) totally blank
+Month 12: 10/500 patches (2.0%) totally blank
+Month 13: 7/500 patches (1.4%) totally blank
+Month 14: 1/500 patches (0.2%) totally blank
+Month 17: 2/500 patches (0.4%) totally blank
+Month 18: 1/500 patches (0.2%) totally blank
+Month 19: 4/500 patches (0.8%) totally blank
+Month 20: 42/500 patches (8.4%) totally blank
+Month 21: 30/500 patches (6.0%) totally blank
+Month 22: 30/500 patches (6.0%) totally blank
+Month 23: 28/500 patches (5.6%) totally blank
+Month 24: 27/500 patches (5.4%) totally blank
+Month 25: 25/500 patches (5.0%) totally blank
+---------------------------------------------------
+cqi
+Month 0: 100/500 patches (20.0%) totally blank
+Month 1: 78/500 patches (15.6%) totally blank
+Month 2: 82/500 patches (16.4%) totally blank
+Month 3: 29/500 patches (5.8%) totally blank
+Month 4: 7/500 patches (1.4%) totally blank
+Month 7: 198/500 patches (39.6%) totally blank
+Month 8: 158/500 patches (31.6%) totally blank
+Month 9: 95/500 patches (19.0%) totally blank
+Month 10: 74/500 patches (14.8%) totally blank
+Month 11: 56/500 patches (11.2%) totally blank
+---------------------------------------------------
+vqi
+---------------------------------------------------
+sqi
+Month 11: 3/500 patches (0.6%) totally blank
+Month 14: 1/500 patches (0.2%) totally blank
+---------------------------------------------------
+lqi
+---------------------------------------------------
+dsi
+Month 0: 100/500 patches (20.0%) totally blank
+Month 1: 78/500 patches (15.6%) totally blank
+Month 2: 82/500 patches (16.4%) totally blank
+Month 3: 29/500 patches (5.8%) totally blank
+Month 4: 7/500 patches (1.4%) totally blank
+Month 7: 198/500 patches (39.6%) totally blank
+Month 8: 159/500 patches (31.8%) totally blank
+Month 9: 95/500 patches (19.0%) totally blank
+Month 10: 74/500 patches (14.8%) totally blank
+Month 11: 59/500 patches (11.8%) totally blank
+Month 14: 1/500 patches (0.2%) totally blank
